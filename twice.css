@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+body{
+    width: 1366px;
+    height: 500px;
+}
+@font-face {
+    font-family: latobk;
+    src: url(/fuentes/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: lato;
+    src: url(/fuentes/Lato-Regular.ttf);
+}
+#todas{
+    width: 500px;
+    background-image: url(/twice/imagenes/todas.jpg);
+}
+header{
+    width: 1366px;
+    height: 700px;
+    background-color: #f9c496a4;
+}
+h1{
+    margin-left: 538px;
+    font-family: latobk, serif;
+    font-size: 100px;
+}
+p{
+    margin: 0 50px;
+    font-family: lato, serif;
+
+}
+#todas{
+    margin-top: 50px;
+    margin-left: 438px;
+    width: 500px;
+    border-radius: 20px;
+}
+.med1{
+    width: 200px;
+}
+section{
+    background-color: #fd5d9d48;
+}
